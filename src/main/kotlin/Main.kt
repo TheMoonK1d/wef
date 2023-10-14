@@ -38,7 +38,7 @@ fun hashSeedWords(seedWords: List<String>): String {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     val asciiArt = """  
 ${'$'}${'$'}\      ${'$'}${'$'}\            ${'$'}${'$'}${'$'}${'$'}${'$'}${'$'}\  
 ${'$'}${'$'} | ${'$'}\  ${'$'}${'$'} |          ${'$'}${'$'}  __${'$'}${'$'}\ 
