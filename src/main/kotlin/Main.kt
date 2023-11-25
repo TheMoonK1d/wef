@@ -52,7 +52,7 @@ ${'$'}${'$'}  /   \${'$'}${'$'} |\${'$'}${'$'}${'$'}${'$'}${'$'}${'$'}${'$'}\ ${
 
     println(asciiArt)
 
-    val filePath = "C:\\Users\\Eyob\\IdeaProjects\\wef\\src\\main\\kotlin\\words.txt"
+    val filePath = "...\\wef\\src\\main\\kotlin\\words.txt"
     if (File(filePath).exists()) {
         val seedWords = RandomWordPicker(filePath, 10)
 
